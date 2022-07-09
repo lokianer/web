@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-image: url("../public/images/bg.gif");
+    color: #ffffff;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+
+}
+p {
+  margin: 15px 0;
+  line-height: 1.8;
+}
+
+.li-disc{
+  list-style: disc;
+}
+
+.linktext li:hover{
+  color:#db2777;
+
+}
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+  background-color: #db2777;
+  color: #ffffff;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+  color: black;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #db2777;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #db2777;
+}
+
+ul{
+  font-size: 110%;
+  line-height: 2.3;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.blog-text ul,
+ol {
+  font-size: 110%;
+  line-height: 2.3;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.blog-text pre {
+  background: #f4f4f4;
+  padding: 20px;
+  margin: 20px 0;
+  line-height: 2.3;
+}
+
+.blog-text h1 {
+  font-size: 35px;
+}
+
+.blog-text h2,
+.blog-text h3,
+.blog-text h4 {
+  font-size: 27px;
+}
+
+.h1 {
+  font-size: 27px;
+}
+
+/* Fix category colors in production */
+.bg-yellow-600 {
+  background-color: #d97705;
+}
+.bg-blue-600 {
+  background: #3929eb;
+}
+.bg-green-600 {
+  background-color: #049669;
+}
+.bg-purple-600 {
+  background-color: #7730db;
+}
+.bg-red-600 {
+  background-color: #a70b34;
+}
