@@ -1,13 +1,13 @@
 /* eslint-disable react/jsx-key */
-import fs from "fs"
-import path from "path"
-import Layout from "@/components/Layout"
-import matter from 'gray-matter'
-import PostCard from "@/components/PostCard"
+import {fs} from "fs"
+import {path} from "path"
+import {Layout} from "@/components/Layout"
+import {matter} from 'gray-matter'
+import {PostCard} from "@/components/PostCard"
 import { getPosts } from '@/lib/posts'
-import TagList from "@/components/TagList"
-import Pagination from "@/components/Pagination"
-import Search from "@/components/Search"
+import {TagList} from "@/components/TagList"
+import {Pagination} from "@/components/Pagination"
+import {Search} from "@/components/Search"
 
 export default function Blog({ posts, numPages, currentPage, tags }) {
     return (
