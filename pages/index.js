@@ -1,9 +1,9 @@
-import Layout from '@/components/Layout'
-import Link from 'next/link'
-import PostCard from "@/components/PostCard"
-import FeaturedPost from "@/components/FeaturedPost"
+import {Layout} from '@/components/Layout'
+import {Link} from 'next/link'
+import {PostCard} from "@/components/PostCard"
+import {FeaturedPost} from "@/components/FeaturedPost"
 import { getPosts } from '@/lib/posts'
-import Search from "@/components/Search"
+import {Search} from "@/components/Search"
 
 export default function Home({posts}) {
   return (
