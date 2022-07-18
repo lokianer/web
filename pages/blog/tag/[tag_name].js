@@ -1,12 +1,11 @@
 /* eslint-disable react/jsx-key */
-import {fs} from "fs"
-import {path} from "path"
-import {Layout} from "@/components/Layout"
-import {matter} from 'gray-matter'
-import {Link} from 'next/link'
-import {PostCard} from "@/components/PostCard"
+import { fs } from "fs"
+import { path } from "path"
+import { Layout } from "@/components/Layout"
+import { matter } from 'gray-matter'
+import { PostCard } from "@/components/PostCard"
 import { getPosts } from '@/lib/posts'
-import {TagList} from "@/components/TagList"
+import { TagList } from "@/components/TagList"
 
 export default function TagPage({posts, tagName, tags}) {
   return (

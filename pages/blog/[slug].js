@@ -1,12 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
-import {fs} from "fs"
-import {path} from "path"
-import {matter} from "gray-matter"
-import {moment} from "moment"
-import {Link} from "next/link"
-import {Layout} from "@/components/Layout"
-import {TagLabel} from "@/components/TagLabel"
-import {marked} from "marked"
+import { fs } from "fs"
+import { path } from "path"
+import { matter } from "gray-matter"
+import { moment } from "moment"
+import { Link } from "next/link"
+import { Layout } from "@/components/Layout"
+import { TagLabel } from "@/components/TagLabel"
+import { marked } from "marked"
 export default function PostPage({ frontmatter: { title, author, author_image, cover_image, date, tag }, content, slug }) {
     return (
         <Layout title={title}>
