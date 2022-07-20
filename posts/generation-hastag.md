@@ -20,7 +20,7 @@ Wie viele Likes?
 cover_image: '/../images/posts/poetry.jpg'
 tag: Gedichte
 date: '2021-03-25'
-featured: true
+featured: false
 ---
 #Gedicht#Vortrag#Schule#Arbeit
 #Langeweile#Chillen

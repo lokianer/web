@@ -26,6 +26,11 @@ p {
   color:#db2777;
 
 }
+.sololink a:hover{
+  color:#db2777;
+}
+
+
 .styled-table {
   border-collapse: collapse;
   margin: 25px 0;
