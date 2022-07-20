@@ -1,5 +1,5 @@
 import Layout from '@/components/Layout'
-import { Link } from 'next/link'
+import Link from 'next/link'
 import PostCard from "@/components/PostCard"
 import FeaturedPost from "@/components/FeaturedPost"
 import { getPosts } from '@/lib/posts'
