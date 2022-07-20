@@ -12,7 +12,7 @@ featured: true
 
 This is a SyncBot. It synchronises a Twitch chat with a specific Discord channel.
 
-Download it <a class='sololink' href='https://github.com/lokianer/SyncBot'>here</a>.
+Download it <a class="sololink" href='https://github.com/lokianer/SyncBot'>here</a>.
 
 ## Start the bot
 With node ``index.js``, you can start the bot. Before that make sure, you create a ``config.JSON`` with the respectiv Attributes, or add the values directly to the ``index.js``.
@@ -25,9 +25,9 @@ With node ``index.js``, you can start the bot. Before that make sure, you create
 
 ## Accounts
 ### Twitch
-You need a Twitch account to join the channel and read the messages. Additionally, you need an OAuth Token. You can request one <a class='sololink' href='https://twitchapps.com/tmi/'>here</a>.
+You need a Twitch account to join the channel and read the messages. Additionally, you need an OAuth Token. You can request one <a class="sololink" href='https://twitchapps.com/tmi/'>here</a>.
 ### Discord-Bot
-You need a Discord application, you can create one <a class='sololink' href='https://discord.com/developers/applications'>here</a>. Add the bot to your server
+You need a Discord application, you can create one <a class="sololink" href='https://discord.com/developers/applications'>here</a>. Add the bot to your server
 
 ## License
 ISC License (ISC) Copyright 2021 Lokianer
