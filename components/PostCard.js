@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { moment } from 'moment'
 import { Link } from 'next/link'
-import { TagLabel } from './TagLabel'
+import TagLabel from './TagLabel'
 
 import React from 'react'
 

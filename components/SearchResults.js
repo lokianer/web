@@ -1,4 +1,4 @@
-import { PostCard } from './PostCard'
+import PostCard from './PostCard'
 
 export default function SearchResults({ results }) {
   if (results.length == 0) return <></>
